@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A investigaçao</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+<main>
+    <div class="passo ativo" id passo-0>
+        <img src="invest_foto.jpg" alt=>
+        <p>
+            Você é um detetive e recebeu uma ligação para resolver um caso de assasinato em uma mansão de luxo e o seu
+            objetivo é descobrir o culpado! O que você fará agora?
+        </p>
+        <button class="btn-proximo" data-proximo="1">
+            Ir imediatamente à mansão
+        </button>
+        <button class="btn-proximo" data-proximo="2">
+            Ignorar a chamada
+        </button>
+    </div>
+    <div class="passo" id passo-1>
+        <p>
+            Você chegou a cena do crime, na mansão, e precisa decidir como prosseguir.
+        </p>
+        <button class="btn-proximo" data-proximo="3">
+            Investigar sozinho
+        </button>
+        <button class="btn-proximo" data-proximo="4">
+            Pedir reforço policial
+        </button>
+
+    </div>
+    <div class="passo" id passo-2>
+        <p>
+            Os policiais chegam e você precisa decidir se irá isolar a cena para começar a investigação.
+        </p>
+        <button class="btn-proximo" data-proximo="5">
+            Isolar a cena
+        </button>
+        <button class="btn-proximo" data-proximo="6">
+            Não isolar a cena
+        </button>
+
+    </div>
+    <div class="passo" id passo-3>
+        <p>
+            Após isolar a cena, você tem acesso ao corpo da vitima e precisa identificar de quem se trata.
+        </p>
+        <button class="btn-proximo" data-proximo="7">
+            Verificar documentos
+        </button>
+        <button class="btn-proximo" data-proximo="8">
+            Perguntas aos presentes
+        </button>
+
+    </div>
+    <div class="passo" id passo-4>
+        <p>
+            Após reconhecer o corpo, você vai atrás de evidências para descobrir o assasino.
+        </p>
+        <button class="btn-proximo" data-proximo="9">
+            Buscar por digitais e vestígios
+        </button>
+        <button class="btn-proximo" data-proximo="10">
+            Confiar apenas nos depoimentos
+        </button>
+
+    </div>
+    <div class="passo" id passo-5>
+        <p>
+            Apesar de encontrar algumas provas, você presisa saber tambèm o depoimento de cada um que estava presente.
+            Então um interrogatório será feito. Como você irá realizar esse interrogatório?
+        </p>
+        <button class="btn-proximo" data-proximo="11">
+            Interrogar todos juntos
+        </button>
+        <button class="btn-proximo" data-proximo="12">
+            Interrogar cada um individualmente
+        </button>
+
+    </div>
+    <div class="passo" id passo-6>
+        <p>
+            Você relizou o interrogatório e todos colaboraram com as perguntas, agora será necessário analizar cada
+            álibi. De que forma você fará isso?
+        </p>
+        <button class="btn-proximo" data-proximo="13">
+            Aceitar os álibis sem questionar
+        </button>
+        <button class="btn-proximo" data-proximo="14">
+            Verificar minuciosamente cada álibi
+        </button>
+
+    </div>
+    <div class="passo" id passo-7>
+        <p>
+            Após isso é necessário reconstruir a linha do tempo para verificar cada possível passo do assasino. Para
+            isso,
+            existem algumas possibilidades:
+        </p>
+        <button class="btn-proximo" data-proximo="15">
+            Analisar registros de câmeras
+        </button>
+        <button class="btn-proximo" data-proximo="16">
+            Confiar apenas nos depoimentos
+        </button>
+
+    </div>
+    <div class="passo" id passo-8>
+        <p>
+            Agora, com quase todas as pistas necessárias, resta identificar o suspeito.
+        </p>
+        <button class="btn-proximo" data-proximo="17">
+            Focar no mais suspeito pela evidência
+        </button>
+        <button class="btn-proximo" data-proximo="18">
+            Investigar todos igualmente
+        </button>
+
+    </div>
+    <div class="passo" id passo-9>
+        <p>
+            Você então, decide confronta diretamente o suspeito para que ele confesse o crime.
+        </p>
+        <button class="btn-proximo" data-proximo="19">
+            Pressionar sem provas concretas
+        </button>
+        <button class="btn-proximo" data-proximo="20">
+            Confrontar com as provas
+        </button>
+
+    </div>
+    <div class="passo" id passo-10>
+        <p>
+            Após confrontar diretamente o suspeito com provas concretas, ainda há a probabilidade de exitir outra pessoa
+            envolvida no crime.
+        </p>
+        <button class="btn-proximo" data-proximo="21">
+            Investigar a possibilidade de um cúmplice
+        </button>
+        <button class="btn-proximo" data-proximo="22">
+            Ignorar essa hipótese
+        </button>
+
+    </div>
+    <div class="passo" id passo-11>
+        <p>
+            Realmente existia um cúmplice envolvido e agora você precisa encontrar alguma maneira de fazer com que ele
+            confesse.
+        </p>
+        <button class="btn-proximo" data-proximo="23">
+            Confrontar diretamente sem um plano
+        </button>
+        <button class="btn-proximo" data-proximo="24">
+            Fazer uma enboscada planejada
+        </button>
+
+    </div>
+    <div class="passo" id passo-12>
+        <p>
+            A investigação está finalmente encerrada e os principais culpados estão sob observação policial, resta a
+            você decidir, por fim, quem irá preso.
+        </p>
+        <button class="btn-proximo" data-proximo="25">
+            Prender o culpado e o cúmplice
+        </button>
+        <button class="btn-proximo" data-proximo="26">
+            Prender apenas o culpado
+        </button>
+
+    </div>
+
+
+</main>
+<script src = "script.js"></script>
+
+<body>
+
+</body>
+
+</html>
